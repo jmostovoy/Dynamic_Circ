@@ -16,8 +16,8 @@ RPu=0.01  %pulmonic valve  resistance (mmHg/(liter/minute))
 %blood pressure be roughly 120/80 mmHg
 %and to make the pulmonary 
 %blood pressure be roughly 25/8 mmHg.
-Csa=0.0006519  %Systemic  arterial compliance (liters/mmHg)
-Cpa=0.00174  %Pulmonary arterial compliance (liters/mmHg)
+Csa=0.00001  %Systemic  arterial compliance (liters/mmHg)
+Cpa=0.0017  %Pulmonary arterial compliance (liters/mmHg)
 Csv=1.75     %Systemic  venous compliance (liters/mmHg)
 Cpv=0.08     %Pulmonary venous compliance (liters/mmHg)
 CLVS=0.00003 %Min (systolic)  value of CLV (liters/mmHg)

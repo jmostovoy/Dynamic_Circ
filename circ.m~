@@ -27,6 +27,6 @@ for klok=1:klokmax
 end
 %plot results:
 %circ_out
-max(P_plot([isa],end-T/dt:end))
-max(P_plot([ipa],end-T/dt:end))
+%plot(t_plot(end-T/dt:end),P_plot([isa],end-T/dt:end), 'LineWidth', 2)
+%plot(t_plot(end-T/dt:end),P_plot([ipa],end-T/dt:end), 'LineWidth', 2)
 
