@@ -26,7 +26,7 @@ for klok=1:klokmax
   %(the net flow is computed in each case)
 end
 %plot results:
-%circ_out
+%circ_out %Get rid of the "%" if you want graphs
 max(P_plot([isa],end-T/dt:end))
 max(P_plot([ipa],end-T/dt:end))
 
