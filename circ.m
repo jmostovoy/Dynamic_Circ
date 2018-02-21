@@ -29,4 +29,7 @@ end
 %circ_out %Get rid of the "%" if you want graphs
 max(P_plot([isa],end-T/dt:end))
 max(P_plot([ipa],end-T/dt:end))
+%% Find Pressure-Volume Work
+WL = calcWork(P_plot(iLV,end-T/dt:end),V_plot(iLV,end-T/dt:end))
+WR = calcWork(P_plot(iRV,end-T/dt:end),V_plot(iRV,end-T/dt:end))
 

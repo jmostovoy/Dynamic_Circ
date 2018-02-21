@@ -14,7 +14,7 @@ for klok=1:klokmax
   QAo_plot(klok)=QAo;
   Psa_plot(klok)=Psa;
 end
-%Psa1(:,k) = Psa_plot;
+%Psa1(:,k) = Psa_plot; %use to store values with diff k's
 %% Plot results in one figure, all data with labels
 
 %with QAo(t) in upper frame
@@ -42,7 +42,7 @@ for k=1:(n+1)
     minimax(1,k)=min(Psa1(end-T/dt:end,k));
     minimax(2,k)=max(Psa1(end-T/dt:end,k));
 end
-%% 
+%% Plot mins and maxs
 plot(linspace(0.0050,0.0200, n+1), minimax, 'LineWidth', 3)
 xlabel('TS') %label for 1 fig
 ylabel('P_{sa}') %label for 1 fig

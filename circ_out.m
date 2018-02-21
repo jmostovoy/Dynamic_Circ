@@ -55,7 +55,7 @@ clearvars P1 P2 P3
 figure(4)%pressure-volume loops for both ventricles
 P1 = subplot(2,1,1),plot(V_plot(iLV,end-T/dt:end),P_plot(iLV,end-T/dt:end), 'LineWidth', 2)
 P2 = subplot(2,1,2),plot(V_plot(iRV,end-T/dt:end),P_plot(iRV,end-T/dt:end), 'LineWidth', 2)
-set( get(P1,'XLabel'), 'String', 'Left Ventricle Pressure' );
-set( get(P2,'XLabel'), 'String', 'Right Ventricle Pressure' );
-set( get(P1,'YLabel'), 'String', 'Left Ventricle Volume' );
-set( get(P2,'YLabel'), 'String', 'Right Ventricle Volume' );
+set( get(P1,'XLabel'), 'String', 'Left Ventricle Volume' );
+set( get(P2,'XLabel'), 'String', 'Right Ventricle Volume' );
+set( get(P1,'YLabel'), 'String', 'Left Ventricle Pressure' );
+set( get(P2,'YLabel'), 'String', 'Right Ventricle Pressure' );
